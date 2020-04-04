@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    font-style: normal;
+    color: #000000;
+    background-color: #dfe4e7;
+}
+
+/* блок header */
+
+h3 {
+    text-transform: uppercase;
+    font-size: 24pt;
+    /* font-style: bold; */
+    color: #7c002f;
+    margin: 10px 10px;
+}
+
+/* блок main */
+
+.content {
+    width: 1070px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.content p {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.container {
+    margin: auto 30px;
+}
+
+/* блок с таблицей */
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+
+li {
+    background-clip: content-box;
+    /* list-style: none; */
+    width: 300px;
+    height: 430px;
+    display: inline-block;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.3);
+    padding: 10px;
+    position: relative;
+    margin: 5px;
+}
+
+.section p {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* font-style: bold; */
+}
+
+.content__buttons {
+    position: relative;
+    margin-top: 60px;
+    padding: 0;
+}
+
+.content a {
+    border: none;
+    background-color: #7c7c7c;
+    display: block;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 16pt;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:focus {
+    background-color: #7c002f;
+}
+
+
+
+
+/* блок с открыв-ся окнами */
+
+.btn {
+    padding: 5px 15px 15px;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    width: 600px;
+    height: fit-content;
+    display: none;
+    overflow: hidden;
+    border: 2px solid #7c7c7c;
+    background: #f9fdc0;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+.btn h5 {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn a.close {
+    width: 40px;
+    height: 40px;
+    /* display: block; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(../img/but_close.png) no-repeat;
+}
+
+/* блок footer */
+
+.arrow {
+    margin: 10px 250px 25px;
+}
